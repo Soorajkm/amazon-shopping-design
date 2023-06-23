@@ -1,0 +1,90 @@
+body{
+    background-color:blanchedalmond;
+}
+.card{
+    background-color:white;
+    margin:5px;
+    height:440px;
+    box-shadow:2px 2px 2px 2px gray;
+    padding:5px;
+}
+.first-section{
+    display:grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    margin-top: -300px;
+}
+.card img{
+    width:100%;
+    margin:5px;
+}
+.row{
+    display:grid;
+    grid-template-columns:6fr 6fr;
+}
+.row div{
+    margin:5px;
+}
+.card-title{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight:bold;
+}
+.card-footer{
+    color:blue;
+}
+.card-header{
+    margin-bottom: 10px;
+}
+.sec-templete{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    margin-top:20px;
+}
+.second-section{
+    margin-top:50px;
+    background-color:white;
+    padding:20px;
+}
+.sec-card{
+    box-shadow: 2px 2px 2px 2px gray;
+    padding:10px;
+}
+.sec-card-header img{
+    margin-left:33px;
+}
+.sec-main-title{
+    font-weight:bold;
+    font-family: Tahoma;
+    font-size:20px;
+}
+.sec-sub-title{
+    color:dodgerblue;
+    font-family:tahoma;
+    margin-left:30px;
+}
+.footer-title{
+    background-color:rgb(238, 31, 31);
+    padding:3px;
+    text-align: center;
+    border-radius: 3px;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right:12px;
+}
+.sec-card-footer{
+    margin-top:20px;
+}
+.footer-sub-title{
+    color:rgb(238, 31, 31);
+    font-weight:bold;
+    font-family: tahoma;
+    font-size:12px;
+}
+.footer-name{
+    margin-top:15px;
+    font-family:tahoma;
+    font-size:13px;
+}
+.sec-card{
+    margin:5px;
+}
